@@ -1,7 +1,4 @@
 (require 'auto-complete-config)
-(require 'auto-complete-etags)
-(require 'ac-company)
-(require 'etags-table)
 (require 'auto-complete-clang)
 
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/assets/ac-dict")
@@ -17,6 +14,7 @@
         css-mode
         ecmascript-mode
         emacs-lisp-mode
+        fundamental-mode
         html-helper-mode
         java-mode
         javascript-mode

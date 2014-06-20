@@ -1,18 +1,9 @@
-(add-to-list 'load-path "~/.emacs.d/el-get/magit")
-(add-to-list 'load-path "~/.emacs.d/el-get/git-commit-mode")
-
 (require 'magit)
 
 (push '(magit-status :position left :height 0.5) popwin:special-display-config)
 
 (global-set-key (kbd "C-c git") 'magit-status)
-(global-set-key (kbd "C-c dci") 'magit-svn-dcommit)
-
-(add-hook 'magit-mode-hook (lambda()
-                             (require 'magit-svn)
-                             (if (magit-svn-get-ref-info)
-                                 (magit-svn-mode))))
-
+(global-set-key (kbd "C-x C-p")  'magit-push)
 
 (eval-after-load 'magit
   '(progn

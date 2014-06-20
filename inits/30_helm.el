@@ -1,12 +1,12 @@
 (require 'helm-config)
 (require 'helm-files)
 (require 'helm-ag)
+(require 'helm-gtags)
 
 (helm-mode 1)
 
 ;; key bind
 (global-set-key (kbd "C-c C-g") 'helm-ag)
-(define-key global-map (kbd "C-s")   'helm-c-moccur-occur-by-moccur)
 (define-key global-map (kbd "C-x b") 'helm-for-files)
 (define-key global-map (kbd "C-x C-f") 'helm-find-files)
 (define-key global-map (kbd "C-c C-i") 'helm-imenu)
