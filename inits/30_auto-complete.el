@@ -71,3 +71,6 @@
 (define-key ac-completing-map (kbd "C-n") 'ac-next)
 (define-key ac-completing-map (kbd "C-p") 'ac-previous)
 (define-key ac-completing-map (kbd "C-s") 'ac-isearch)
+
+;; 文字列でも補完を行う
+(setq ac-disable-faces nil)
