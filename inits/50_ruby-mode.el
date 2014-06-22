@@ -26,6 +26,8 @@
 
 (push '(".+\\.rb$" flymake-ruby-init) flymake-allowed-file-name-masks)
 (push '(".+\\.thor$" flymake-ruby-init) flymake-allowed-file-name-masks)
+(push '(".+\\.ru$" flymake-ruby-init) flymake-allowed-file-name-masks)
+(push '(".+\\.gemspec$" flymake-ruby-init) flymake-allowed-file-name-masks)
 (push '("Gemfile$" flymake-ruby-init) flymake-allowed-file-name-masks)
 (push '("Rakefile$" flymake-ruby-init) flymake-allowed-file-name-masks)
 (push '("^\\(.*\\):\\([0-9]+\\): \\(.*\\)$" 1 2 nil 3) flymake-err-line-patterns)
