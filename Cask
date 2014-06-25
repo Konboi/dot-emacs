@@ -59,6 +59,11 @@
 (depends-on "js2-highlight-vars" :git "https://github.com/skiviharju/js2-highlight-vars-mode.git")
 
 
+;; Go
+(depends-on "go-mode")
+(depends-on "go-autocomplete")
+(depends-on "go-flymake")
+
 ;; Setup
 (depends-on "init-loader")
 (depends-on "exec-path-from-shell" :git "https://github.com/purcell/exec-path-from-shell.git")
