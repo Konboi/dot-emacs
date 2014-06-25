@@ -81,3 +81,6 @@
 
 ;; 行末の空白を表示
 (setq-default show-trailing-whitespace t)
+
+;; 末尾スペースの削除
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
