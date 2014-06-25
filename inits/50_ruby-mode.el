@@ -45,3 +45,8 @@
 (add-to-list 'auto-mode-alist '("Capfile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Rakefile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.cap$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.gemspec" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
+
+(require 'yard-mode)
+(add-hook 'ruby-mode-hook 'yard-mode)
