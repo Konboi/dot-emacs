@@ -37,6 +37,7 @@
 (depends-on "ruby-block")
 (depends-on "helm-rails")
 (depends-on "ruby-electric" :git "git@github.com:qoobaa/ruby-electric.git")
+(depends-on "yard-mode")
 
 ;; php
 (depends-on "php-mode")
