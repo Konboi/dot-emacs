@@ -56,13 +56,13 @@
 (depends-on "flymake-coffee")
 (depends-on "js-doc")
 (depends-on "js2-mode")
-(depends-on "js2-highlight-vars" :git "https://github.com/skiviharju/js2-highlight-vars-mode.git")
+(depends-on "js2-highlight-vars" :git "git@github.com:skiviharju/js2-highlight-vars-mode.git")
 
 
 ;; Go
 (depends-on "go-mode")
 (depends-on "go-autocomplete")
-(depends-on "go-flymake")
+(depends-on "go-flymake" :git "git@github.com:dougm/goflymake.git")
 
 ;; Setup
 (depends-on "init-loader")
