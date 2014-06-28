@@ -30,7 +30,7 @@
 (depends-on "git-messenger" :git "https://github.com/syohex/emacs-git-messenger.git")
 (depends-on "magit")
 
-;; ruby
+;; Ruby
 (depends-on "rhtml-mode")
 (depends-on "rinari")
 (depends-on "rspec-mode" :git "https://github.com/pezra/rspec-mode.git")
@@ -38,6 +38,8 @@
 (depends-on "helm-rails")
 (depends-on "ruby-electric" :git "git@github.com:qoobaa/ruby-electric.git")
 (depends-on "yard-mode")
+(depends-on "robe", :git "git@github.com:dgutov/robe.git")
+(depends-on "inf-ruby", :git "git@github.com:nonsequitur/inf-ruby.git")
 
 ;; php
 (depends-on "php-mode")
