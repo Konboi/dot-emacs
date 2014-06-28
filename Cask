@@ -40,6 +40,7 @@
 (depends-on "yard-mode")
 (depends-on "robe", :git "git@github.com:dgutov/robe.git")
 (depends-on "inf-ruby", :git "git@github.com:nonsequitur/inf-ruby.git")
+(depends-on "flymake-ruby")
 
 ;; php
 (depends-on "php-mode")
