@@ -10,9 +10,14 @@
                (local-set-key (kbd "<") (smartchr '("<?php `!!' ?>" "<?php" "<")))
                )))
 
-(add-hook 'perl-mode
+(add-hook 'cperl-mode
           '(lambda ()
              (progn
                (local-set-key (kbd "=") (smartchr '("=" "=>" "==")))
                (local-set-key (kbd "-") (smartchr '("-" "->" "--")))
+               )))
+(add-hook 'ruby-mode
+          '(lambda ()
+             (progn
+               (local-set-key (kbd "=") (smartchr '("=" "=>" "==")))
                )))
