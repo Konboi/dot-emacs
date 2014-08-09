@@ -17,6 +17,9 @@
 (depends-on "popwin")
 (depends-on "yasnippet")
 
+;; theme
+(depends-on "monokai-theme" :git "https://github.com/oneKelvinSmith/monokai-emacs.git")
+
 ;; auto-complete
 (depends-on "auto-complete")
 (depends-on "auto-complete-clang")
