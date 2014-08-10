@@ -21,3 +21,10 @@
              (progn
                (local-set-key (kbd "=") (smartchr '("=" "=>" "==")))
                )))
+
+(add-hook 'tx-mode
+          '(lambda ()
+             (progn
+               (local-set-key (kbd "<") (smartchr '("<" "<:")))
+               (local-set-key (kbd ">") (smartchr '(">" ":>")))
+               )))
