@@ -1,6 +1,7 @@
 (require 'helm-config)
 (require 'helm-files)
 (require 'helm-ag)
+(require 'helm-swoop)
 
 (helm-mode 1)
 

@@ -9,15 +9,18 @@
 (depends-on "flymake")
 (depends-on "fuzzy")
 (depends-on "multi-term")
-(depends-on "helm")
-(depends-on "helm-ag")
-(depends-on "helm-c-moccur")
 (depends-on "powerline")
 (depends-on "popwin")
 (depends-on "yasnippet")
 
 ;; theme
 (depends-on "monokai-theme" :git "https://github.com/oneKelvinSmith/monokai-emacs.git")
+
+;; helm
+(depends-on "helm")
+(depends-on "helm-ag")
+(depends-on "helm-c-moccur")
+(depends-on "helm-swoop")
 
 ;; auto-complete
 (depends-on "auto-complete")
