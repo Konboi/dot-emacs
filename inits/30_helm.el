@@ -11,6 +11,8 @@
 (define-key global-map (kbd "C-x C-f") 'helm-find-files)
 (define-key global-map (kbd "C-c C-i") 'helm-imenu)
 (define-key global-map (kbd "M-x")   'helm-M-x)
+(define-key global-map (kbd "C-s") 'helm-swoop)
+(define-key global-map (kbd "C-M-s") 'helm-swoop)
 
 ;; overwrite helm debugging command prefix
 (eval-after-load 'helm
