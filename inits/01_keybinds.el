@@ -17,3 +17,8 @@
 (global-set-key (kbd "C-x M-b")   'list-buffers)
 (global-set-key (kbd "C-c C-i")   'align-regexp)
 (global-set-key (kbd "C-c C-u")   'cua-mode)
+
+;; tags
+(global-set-key (kbd "M-]") 'find-tag)
+(global-set-key (kbd "M-[") 'pop-tag-mark)
+(global-set-key (kbd "M-}") (read-kbd-macro "C-u M-."))
