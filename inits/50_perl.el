@@ -57,21 +57,6 @@
   (save-excursion (mark-defun)
   (perltidy-region)))
 
-;; perl completion
-(add-hook 'cperl-mode-hook (lambda ()
-                             (require 'perl-completion)
-                             (perl-completion-mode t)))
-
-(add-hook  'cperl-mode-hook (lambda ()
-                              (require 'auto-complete)
-                              (require 'perl-completion)
-                              (add-to-list 'ac-sources 'ac-source-perl-completion)
-                              (perl-completion-mode t)
-                              (setq compile-command
-                                    (concat "perl " (buffer-file-name)))
-                              (cperl-define-key "\C-c\C-c" 'compile )
-                              ))
-
 (global-set-key "\C-ct" 'perltidy-region)
 (global-set-key "\C-c\C-t" 'perltidy-defun)
 
