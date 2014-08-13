@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: perl default header 
+# key: perl-header
+# binding: direct-keybinding
+# --
+use 5.016;
+use utf8;
+use strict;
+use warnings;
