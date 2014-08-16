@@ -71,11 +71,13 @@
 (depends-on "js2-mode")
 (depends-on "js2-highlight-vars" :git "git@github.com:skiviharju/js2-highlight-vars-mode.git")
 
-
 ;; Go
 (depends-on "go-mode")
 (depends-on "go-autocomplete")
 (depends-on "go-flymake" :git "git@github.com:dougm/goflymake.git")
+
+;; Docker
+(depends-on "dockerfile-mode" :git "git@github.com:spotify/dockerfile-mode.git")
 
 ;; Setup
 (depends-on "init-loader")
