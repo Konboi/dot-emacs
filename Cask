@@ -2,7 +2,6 @@
 (source melpa)
 
 (depends-on "ag")
-
 (depends-on "color-theme")
 (depends-on "direx")
 (depends-on "expand-region")
@@ -12,6 +11,9 @@
 (depends-on "powerline")
 (depends-on "popwin")
 (depends-on "yasnippet")
+(depends-on "wgrep")
+(depends-on "wgrep-ag")
+
 
 ;; theme
 (depends-on "monokai-theme" :git "https://github.com/oneKelvinSmith/monokai-emacs.git")
