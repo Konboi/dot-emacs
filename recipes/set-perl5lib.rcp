@@ -1,7 +1,0 @@
-(:name set-perl5lib
-       :type github
-       :url "https://gist.github.com/1333926.git"
-       :features set-perl5lib)
-
-
-

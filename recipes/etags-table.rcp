@@ -1,5 +1,0 @@
-(:name etags-table
-       :type github
-       :url "git://github.com/emacsmirror/etags-table.git"
-       :features "etags-table")
-

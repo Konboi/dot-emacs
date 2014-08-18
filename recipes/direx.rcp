@@ -1,7 +1,0 @@
-(:name direx
-       :type github
-       :url "git://github.com/m2ym/direx-el.git"
-       :features direx)
-
-
-

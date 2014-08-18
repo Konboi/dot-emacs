@@ -1,9 +1,0 @@
-(:name rinari
-       :type github
-       :url "git://github.com/eschulte/rinari.git"
-       :features rinari)
-
-
-
-
-

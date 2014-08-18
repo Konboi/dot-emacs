@@ -1,9 +1,0 @@
-(:name php-mode
-       :type github
-       :url "git://github.com/ejmr/php-mode.git"
-       :features php-mode)
-
-
-
-
-
