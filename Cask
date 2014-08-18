@@ -87,6 +87,4 @@
 (depends-on "guide-key")
 (depends-on "mark-multiple" :git "git@github.com:magnars/mark-multiple.el.git")
 (depends-on "htmlize")
-;;(depends-on "smartchr" :git "git@github.com:imakado/emacs-smartchr.git")
-
-(depends-on "smartchr" :git "git@github.com:Konboi/emacs-smartchr.git")
+(depends-on "smartchr" :git "git@github.com:imakado/emacs-smartchr.git")
