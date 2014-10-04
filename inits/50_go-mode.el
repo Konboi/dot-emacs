@@ -14,7 +14,7 @@
 
 (add-hook 'go-mode-hook
           (lambda ()
-            (local-set-key (kbd "M-.") 'godef-jump)))
+            (local-set-key (kbd "M-]") 'godef-jump)))
 
 ;; http://d.hatena.ne.jp/syohex/
 (font-lock-add-keywords
