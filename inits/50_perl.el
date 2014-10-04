@@ -45,3 +45,12 @@
 (add-to-list 'auto-mode-alist '("\\.pm$" . perl-mode))
 (add-to-list 'auto-mode-alist '("\\.psgi$" . perl-mode))
 (add-to-list 'auto-mode-alist '("\\.pl$" . perl-mode))
+
+
+;; perl package func
+(defun yas/perl-package-name ()
+  (let ((file-path (file-name-sans-extension (buffer-file-name))))
+    (if (string-match "lib/" file-path)
+        (replace-regexp-in-string "/" "::"
+                                  (car (last (split-string file-path "/lib/"))))
+      (file-name-nondirectory file-path))))

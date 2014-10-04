@@ -64,3 +64,8 @@
     (when err
       (message err))))
 (global-set-key "\C-ce" 'next-flymake-error)
+
+;; auto-load conf
+(add-hook 'cperl-mode-hook
+          '(lambda ()
+             (flymake-mode t)))
