@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: package
+# key: package
+# binding: direct-keybinding
+# --
+package `(yas/perl-package-name)`;
+use strict;
+use warnings;
+
+$0
+
+1;
