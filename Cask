@@ -13,7 +13,7 @@
 (depends-on "yasnippet")
 (depends-on "wgrep")
 (depends-on "wgrep-ag")
-
+(depends-on "quickrun")
 
 ;; theme
 (depends-on "monokai-theme" :git "https://github.com/oneKelvinSmith/monokai-emacs.git")
@@ -26,7 +26,7 @@
 
 ;; auto-complete
 (depends-on "auto-complete")
-(depends-on "auto-complete-clang")
+(depends-on "auto-complete-clang-async")
 
 
 ;; corn
@@ -55,6 +55,9 @@
 ;; php
 (depends-on "php-mode")
 
+;; Clang
+(depends-on "auto-complete-clang" :git "git@github.com:brianjcj/auto-complete-clang.git")
+
 ;; Perl
 (depends-on "cperl-mode")
 (depends-on "helm-perldoc" :git "git@github.com:syohex/emacs-helm-perldoc.git")
@@ -70,6 +73,11 @@
 (depends-on "js-doc")
 (depends-on "js2-mode")
 (depends-on "js2-highlight-vars" :git "git@github.com:skiviharju/js2-highlight-vars-mode.git")
+
+;; TypeScript
+(depends-on "tss" :git "git@github.com:aki2o/emacs-tss.git")
+(depends-on "typescript" :git "git@github.com:aki2o/emacs-tss.git")
+
 
 ;; Go
 (depends-on "go-mode")
