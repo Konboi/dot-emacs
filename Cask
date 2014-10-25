@@ -10,11 +10,12 @@
 (depends-on "multi-term")
 (depends-on "powerline")
 (depends-on "popwin")
+(depends-on "quickrun")
+(depends-on "shell-pop")
 (depends-on "yasnippet")
+(depends-on "undo-tree")
 (depends-on "wgrep")
 (depends-on "wgrep-ag")
-(depends-on "quickrun")
-
 ;; theme
 (depends-on "monokai-theme" :git "https://github.com/oneKelvinSmith/monokai-emacs.git")
 
@@ -23,6 +24,7 @@
 (depends-on "helm-ag")
 (depends-on "helm-c-moccur")
 (depends-on "helm-swoop")
+(depends-on "helm-projectile")
 
 ;; auto-complete
 (depends-on "auto-complete")

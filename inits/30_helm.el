@@ -6,13 +6,15 @@
 (helm-mode 1)
 
 ;; key bind
+(global-set-key (kbd "C-Q")     'helm-mini)
+(global-set-key (kbd "M-y")     'helm-show-kill-ring)
 (global-set-key (kbd "C-c C-g") 'helm-ag)
-(define-key global-map (kbd "C-x b") 'helm-for-files)
-(define-key global-map (kbd "C-x C-f") 'helm-find-files)
-(define-key global-map (kbd "C-c C-i") 'helm-imenu)
-(define-key global-map (kbd "M-x")   'helm-M-x)
-(define-key global-map (kbd "C-s") 'helm-swoop)
-(define-key global-map (kbd "C-M-s") 'helm-swoop)
+(global-set-key (kbd "C-x b")   'helm-for-files)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-c C-i") 'helm-imenu)
+(global-set-key (kbd "M-x")     'helm-M-x)
+(global-set-key (kbd "C-s")     'helm-swoop)
+(global-set-key (kbd "C-M-s")   'helm-swoop)
 
 ;; overwrite helm debugging command prefix
 (eval-after-load 'helm
