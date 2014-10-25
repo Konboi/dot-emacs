@@ -1,5 +1,4 @@
 (global-set-key (kbd "C-c a")     'align)
-
 (global-set-key (kbd "C-c M-a")   'align-regexp)
 (global-set-key (kbd "C-h")       'backward-delete-char)
 (global-set-key (kbd "C-x f")     'fill-paragraph)
@@ -15,7 +14,6 @@
 (global-set-key (kbd "C-/")       'undo)
 
 (global-set-key (kbd "C-x M-b")   'list-buffers)
-(global-set-key (kbd "C-c C-i")   'align-regexp)
 (global-set-key (kbd "C-c C-u")   'cua-mode)
 
 ;; tags
