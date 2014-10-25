@@ -59,3 +59,9 @@
 (autoload 'robe-mode  "robe" "Code navigation, documentation lookup and completion for Ruby" t nil)
 (autoload 'robe-ac-setup "robe-ac" "robe auto-complete" nil nil)
 (add-hook 'robe-mode-hook 'robe-ac-setup)
+
+(require 'ruby-block)
+(ruby-block-mode t)
+
+;; do overlay
+(setq ruby-block-highlight-toggle 'overlay)
