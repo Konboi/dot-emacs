@@ -11,8 +11,6 @@
 (setq cperl-highlight-variables-indiscriminately t)
 
 ; steal from perlhacks
-(global-set-key "\M-p" 'cperl-perldoc)
-
 (add-hook 'cperl-mode-hook '(lambda ()
                               (setq indent-tabs-mode nil)
                               (setq fill-column 78)
@@ -23,6 +21,9 @@
                               ;(set-face-foreground 'cperl-array-face "color-69")
                               (set-face-background 'cperl-array-face (face-background 'default))
                               (setq cperl-array-face 'cperl-array-face)
+                              (local-set-key (kbd "C-ct") 'perltidy-region)
+                              (local-set-key (kbd "C-c C-t") 'perltidy-defun)
+                              (local-set-key (kbd "M-p") 'cperl-perldoc)
                               ))
 
 
@@ -37,9 +38,6 @@
   (interactive)
   (save-excursion (mark-defun)
   (perltidy-region)))
-
-(global-set-key "\C-ct" 'perltidy-region)
-(global-set-key "\C-c\C-t" 'perltidy-defun)
 
 (add-to-list 'auto-mode-alist '("\\.t$" . perl-mode))
 (add-to-list 'auto-mode-alist '("\\.pm$" . perl-mode))
