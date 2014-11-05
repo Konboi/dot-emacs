@@ -8,6 +8,7 @@
 (depends-on "flymake")
 (depends-on "fuzzy")
 (depends-on "multi-term")
+(depends-on "markdown-mode")
 (depends-on "powerline")
 (depends-on "popwin")
 (depends-on "quickrun")
@@ -92,6 +93,9 @@
 ;; Setup
 (depends-on "init-loader")
 (depends-on "exec-path-from-shell" :git "https://github.com/purcell/exec-path-from-shell.git")
+
+;; Coding
+;; (depends-on "html-helper-mode")
 
 ;; Other
 (depends-on "guide-key")
