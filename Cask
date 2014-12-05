@@ -12,11 +12,13 @@
 (depends-on "powerline")
 (depends-on "popwin")
 (depends-on "quickrun")
+(depends-on "scratch-pop" :git "git@github.com:zk-phi/scratch-pop.git")
 (depends-on "shell-pop")
 (depends-on "yasnippet")
 (depends-on "undo-tree")
 (depends-on "wgrep")
 (depends-on "wgrep-ag")
+
 ;; theme
 (depends-on "monokai-theme" :git "https://github.com/oneKelvinSmith/monokai-emacs.git")
 
@@ -51,6 +53,7 @@
 (depends-on "helm-rails")
 (depends-on "ruby-electric" :git "git@github.com:qoobaa/ruby-electric.git")
 (depends-on "yard-mode")
+(depends-on "rcodetools")
 (depends-on "robe", :git "git@github.com:dgutov/robe.git")
 (depends-on "inf-ruby", :git "git@github.com:nonsequitur/inf-ruby.git")
 (depends-on "flymake-ruby")
