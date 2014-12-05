@@ -21,8 +21,6 @@
                               ;(set-face-foreground 'cperl-array-face "color-69")
                               (set-face-background 'cperl-array-face (face-background 'default))
                               (setq cperl-array-face 'cperl-array-face)
-                              (local-set-key (kbd "C-ct") 'perltidy-region)
-                              (local-set-key (kbd "C-c C-t") 'perltidy-defun)
                               (local-set-key (kbd "M-p") 'cperl-perldoc)
                               ))
 
