@@ -61,11 +61,11 @@
 ;;            (add-to-list 'ac-sources 'ac-source-clang)))
 
 ;; for ruby-mode
-(add-hook 'ruby-mode-hook
-          (lambda ()
-            (require 'rcodetools)
-            (require 'auto-complete-ruby)
-            (add-to-list 'ac-sources 'ac-source-rsense)))
+;;(add-hook 'ruby-mode-hook
+;;          (lambda ()
+;;            (require 'rcodetools)
+;;            (require 'auto-complete-ruby)
+;;            (add-to-list 'ac-sources 'ac-source-rsense)))
 
 ;; keybindings
 (define-key ac-completing-map (kbd "C-n") 'ac-next)

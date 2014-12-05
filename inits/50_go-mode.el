@@ -20,3 +20,7 @@
 (font-lock-add-keywords
   'go-mode
   '(("\\b\\(err\\)\\b" 1 '((:foreground "red") (:weight bold)) t)))
+
+;; http://qiita.com/catatsuy/items/4c5a6d3efca463320b79
+(setq gofmt-command "goimports")
+(add-hook 'before-save-hook 'gofmt-before-save)

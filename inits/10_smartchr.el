@@ -18,6 +18,13 @@
                (local-set-key (kbd "=") (smartchr '("=" "=> " "== ")))
                (local-set-key (kbd "-") (smartchr '("-" "->" "-- ")))
                )))
+
+(add-hook 'go-mode-hook
+          '(lambda ()
+             (progn
+               (local-set-key (kbd ":") (smartchr '(":" ":=")))
+               (local-set-key (kbd "=") (smartchr '("=" "==" "!=")))
+               )))
 (add-hook 'ruby-mode-hook
           '(lambda ()
              (progn

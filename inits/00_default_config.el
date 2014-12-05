@@ -84,3 +84,6 @@
 
 ;; 末尾スペースの削除
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; scrach-pop
+(require 'scratch-pop)
