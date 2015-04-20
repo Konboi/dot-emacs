@@ -53,7 +53,7 @@
 (depends-on "helm-rails")
 (depends-on "ruby-electric" :git "git@github.com:qoobaa/ruby-electric.git")
 (depends-on "yard-mode")
-(depends-on "rcodetools")
+;;(depends-on "rcodetools")
 (depends-on "robe", :git "git@github.com:dgutov/robe.git")
 (depends-on "inf-ruby", :git "git@github.com:nonsequitur/inf-ruby.git")
 (depends-on "flymake-ruby")
@@ -78,7 +78,7 @@
 (depends-on "flymake-coffee")
 (depends-on "js-doc")
 (depends-on "js2-mode")
-(depends-on "js2-highlight-vars" :git "git@github.com:skiviharju/js2-highlight-vars-mode.git")
+;;(depends-on "js2-highlight-vars" :git "git@github.com:skiviharju/js2-highlight-vars-mode.git")
 
 ;; TypeScript
 (depends-on "tss" :git "git@github.com:aki2o/emacs-tss.git")

@@ -38,6 +38,9 @@
 ;; バックアップファイルを残さない
 (setq make-backup-files nil)
 
+;; lockファイルを作らない
+(setq create-lockfiles nil)
+
 ;; ベルを鳴らさない
 (setq ring-bell-function 'ignore)
 
