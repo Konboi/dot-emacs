@@ -17,6 +17,7 @@
                (local-set-key (kbd "m") (smartchr '("m" "my ")))
                (local-set-key (kbd "=") (smartchr '("=" "=> " "== ")))
                (local-set-key (kbd "-") (smartchr '("-" "->" "-- ")))
+               (local-set-key (kbd "s") (smartchr '("s" "shift" "ss")))
                )))
 
 (add-hook 'go-mode-hook
