@@ -37,3 +37,10 @@
                (local-set-key (kbd "<") (smartchr '("<" "<:" "<: `!! :>")))
                (local-set-key (kbd ">") (smartchr '(">" ":>")))
                )))
+
+(add-hook 'html-mode-hook
+          '(lambda ()
+             (progn
+               (local-set-key (kbd ",") (smartchr '("," "<")))
+               (local-set-key (kbd ".") (smartchr '("." ">")))
+               )))

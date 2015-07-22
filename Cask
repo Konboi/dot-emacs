@@ -74,16 +74,12 @@
 (depends-on "emmet-mode" :git "https://github.com/smihica/emmet-mode.git")
 
 ;; JavaScript
-(depends-on "coffee-mode")
-(depends-on "flymake-coffee")
 (depends-on "js-doc")
 (depends-on "js2-mode")
-;;(depends-on "js2-highlight-vars" :git "git@github.com:skiviharju/js2-highlight-vars-mode.git")
 
 ;; TypeScript
 (depends-on "tss" :git "git@github.com:aki2o/emacs-tss.git")
 (depends-on "typescript" :git "git@github.com:aki2o/emacs-tss.git")
-
 
 ;; Go
 (depends-on "go-mode")
@@ -92,6 +88,9 @@
 
 ;; Docker
 (depends-on "dockerfile-mode" :git "git@github.com:spotify/dockerfile-mode.git")
+
+;; Swift
+(depends-on "swift-mode")
 
 ;; Setup
 (depends-on "init-loader")
