@@ -29,7 +29,7 @@
 (add-hook 'ruby-mode-hook
           '(lambda ()
              (progn
-               (local-set-key (kbd "=") (smartchr '("=" "=> " "== ")))
+               (local-set-key (kbd "=") (smartchr '("=" "=>" "==")))
                )))
 
 (add-hook 'tx-mode-hook
@@ -37,4 +37,11 @@
              (progn
                (local-set-key (kbd "<") (smartchr '("<" "<:" "<: `!! :>")))
                (local-set-key (kbd ">") (smartchr '(">" ":>")))
+               )))
+
+(add-hook 'html-mode-hook
+          '(lambda ()
+             (progn
+               (local-set-key (kbd ",") (smartchr '("," "<")))
+               (local-set-key (kbd ".") (smartchr '("." ">")))
                )))
