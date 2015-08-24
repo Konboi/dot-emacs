@@ -51,14 +51,8 @@
 (require 'yard-mode)
 (add-hook 'ruby-mode-hook 'yard-mode)
 
-
 (require 'flymake-ruby)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
-
-;;roeb
-(autoload 'robe-mode  "robe" "Code navigation, documentation lookup and completion for Ruby" t nil)
-(autoload 'robe-ac-setup "robe-ac" "robe auto-complete" nil nil)
-(add-hook 'robe-mode-hook 'robe-ac-setup)
 
 (require 'ruby-block)
 (ruby-block-mode t)
