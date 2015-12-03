@@ -19,7 +19,7 @@
 
 ;; TODO cycle
 (setq org-todo-keywords
-      '((sequence "TODO(t)" "DOING(d@)" "STOP(s@)" "|" "DONE(f!)")))
+      '((sequence "TODO(t)" "DOING(d@/!)" "STOP(s@/!)" "|" "DONE(f!)")))
 
 (setq org-log-done 'time)
 (setq org-log-done 'note)
